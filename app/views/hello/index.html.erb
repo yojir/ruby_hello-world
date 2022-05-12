@@ -1,3 +1,8 @@
 <h1>Ruby on Railsで"Hello World"を作成する</h1>
 <h2><%= @hello %></h2>
 <h1>好きな食べ物は<%= @food %></h1>
+<p>
+<% @foods.each do |food| %>
+<%= food %> <br>
+<% end %>
+</p>
